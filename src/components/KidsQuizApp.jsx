@@ -12,7 +12,7 @@ const backgroundColors = [
     primary: '#0f172a',
     secondary: '#1e293b', 
     tertiary: '#334155',
-    gradient: ''
+    gradient: `url(${BackGround}) no-repeat center/cover`
 
   },
   // Question 2: Forest Green
@@ -94,7 +94,7 @@ const defaultBackground = {
   primary: '#0f172a',
   secondary: '#1e293b',
   tertiary: '#0f172a',
-  gradient: `url(${BackGround}) no-repeat center/cover`
+  gradient: ``
   
 };
 
